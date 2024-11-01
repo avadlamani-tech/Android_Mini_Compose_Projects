@@ -12,13 +12,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.android_mini_compose_projects.TabLayout.TabBarScreen
+import com.example.android_mini_compose_projects.driftLogin.Login
+import com.example.android_mini_compose_projects.snackBar.MySnackBar
 import com.example.android_mini_compose_projects.ui.theme.Android_Mini_Compose_ProjectsTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            TabBarScreen()
+            //TabBarScreen()
+           // Login()
+            MySnackBar()
 
         }
     }
